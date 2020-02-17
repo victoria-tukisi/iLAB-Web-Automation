@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>	
+		<listener class-name="resources.ExtentReporterNG"/>
+	</listeners>
+	<test thread-count="5" name="iLAB Online Job Application">
+    <classes>
+      <class name="iLAB_WEBSITE.OnlineJobApplicationTest"/>
+    </classes>
+  </test> 
+  
+  <test thread-count="5" name="Validate Job Application Form">
+    <classes>
+      <class name="iLAB_WEBSITE.ValidateJobApplicationFormTest"/>
+    </classes>
+  </test> 
+  
+  <test thread-count="5" name="Run multiple iLAB Online Job Applications">
+    <classes>
+      <class name="iLAB_WEBSITE.ParameterisedJobApplicationTest"/>
+    </classes>
+  </test> 
+  
+  <test thread-count="5" name="Run iLAB Online Job Applications using Excel testdata">
+    <classes>
+      <class name="iLAB_WEBSITE.ExcelDrivenJobApplicatonTest"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+</suite> <!-- Suite -->

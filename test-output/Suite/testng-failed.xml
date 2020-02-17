@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Validate Job Application Form(failed)">
+    <classes>
+      <class name="iLAB_WEBSITE.ValidateJobApplicationFormTest">
+        <methods>
+          <include name="validateRequiredFieldsOnJobForm"/>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- iLAB_WEBSITE.ValidateJobApplicationFormTest -->
+    </classes>
+  </test> <!-- Validate Job Application Form(failed) -->
+</suite> <!-- Failed suite [Suite] -->

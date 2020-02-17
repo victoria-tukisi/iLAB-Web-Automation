@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="294473" started-at="2020-02-17T17:32:00 CAT" finished-at="2020-02-17T17:36:54 CAT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="294473" started-at="2020-02-17T17:32:00 CAT" finished-at="2020-02-17T17:36:54 CAT">
+      <class name="iLAB_WEBSITE.ParameterisedJobApplicationTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:iLAB_WEBSITE.ParameterisedJobApplicationTest@76707e36]" name="initialize" is-config="true" duration-ms="5150" started-at="2020-02-17T17:32:00 CAT" finished-at="2020-02-17T17:32:05 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="iLabJobApplication(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iLAB_WEBSITE.ParameterisedJobApplicationTest@76707e36]" name="iLabJobApplication" duration-ms="209976" started-at="2020-02-17T17:32:06 CAT" data-provider="getData" finished-at="2020-02-17T17:35:36 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SQA Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[automationAssessment@iLABQuality.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is an automated message.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iLabJobApplication -->
+        <test-method status="PASS" signature="iLabJobApplication(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iLAB_WEBSITE.ParameterisedJobApplicationTest@76707e36]" name="iLabJobApplication" duration-ms="39832" started-at="2020-02-17T17:35:36 CAT" data-provider="getData" finished-at="2020-02-17T17:36:16 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA Automation Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qatestautomation@iLABQuality.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Note that this is an automated message.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iLabJobApplication -->
+        <test-method status="PASS" signature="iLabJobApplication(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iLAB_WEBSITE.ParameterisedJobApplicationTest@76707e36]" name="iLabJobApplication" duration-ms="38310" started-at="2020-02-17T17:36:16 CAT" data-provider="getData" finished-at="2020-02-17T17:36:54 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA Analyst]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qa.analyst@ilab.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3rd job application attempt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iLabJobApplication -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:iLAB_WEBSITE.ParameterisedJobApplicationTest@76707e36]" name="teardown" is-config="true" duration-ms="291" started-at="2020-02-17T17:36:54 CAT" finished-at="2020-02-17T17:36:54 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- iLAB_WEBSITE.ParameterisedJobApplicationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

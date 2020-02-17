@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="iLAB_WEBSITE.ValidateJobApplicationFormTest">
+        <methods>
+          <include name="validateRequiredFieldsOnJobForm"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- iLAB_WEBSITE.ValidateJobApplicationFormTest -->
+      <class name="iLAB_WEBSITE.ExcelDrivenJobApplicatonTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="applyJobOnline"/>
+        </methods>
+      </class> <!-- iLAB_WEBSITE.ExcelDrivenJobApplicatonTest -->
+      <class name="iLAB_WEBSITE.ParameterisedJobApplicationTest">
+        <methods>
+          <include name="iLabJobApplication" invocation-numbers="0 1 2"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- iLAB_WEBSITE.ParameterisedJobApplicationTest -->
+      <class name="iLAB_WEBSITE.OnlineJobApplicationTest">
+        <methods>
+          <include name="applyJobOnline"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- iLAB_WEBSITE.OnlineJobApplicationTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
