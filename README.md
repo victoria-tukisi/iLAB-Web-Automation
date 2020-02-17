@@ -3,13 +3,13 @@
 Instructions to run the Project
 
 Install the latest Eclipse IDE, and follow the steps: 
-> Clone or Download project from GitHut
-> Save the project in a desired location on your machine e.g Desktop
-> Import the project in Eclipse IDE
-> Expand the iLAB_WEB project folders:
-		>>>make string-path changes in the following classes:
-		>>>base.java - For example my location is "C:\\Users\\Victoria\\iLAB_WEB\\src\\main\\java\\resources\\data.properties" and yours will be different
-		>>>ExcelDataDriven.java - For example my location is "C:\\Users\\Victoria\\iLAB_WEB\\ExcelData.xlsx" and yours will be different
++ Clone or Download project from GitHut
++ Save the project in a desired location on your machine e.g Desktop
++ Import the project in Eclipse IDE
++ Expand the iLAB_WEB project folders:
+		Make string-path changes in the following classes:
+		-base.java - For example my location is "C:\\Users\\Victoria\\iLAB_WEB\\src\\main\\java\\resources\\data.properties" and yours will be different
+		-ExcelDataDriven.java - For example my location is "C:\\Users\\Victoria\\iLAB_WEB\\ExcelData.xlsx" and yours will be different
 
 ----------------------------------------------------------
 
